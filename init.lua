@@ -13,4 +13,6 @@
 
 require("config.opts")
 require("config.lazy")
+require("config.keys")
+require("config.icons")
 require("config.au")
