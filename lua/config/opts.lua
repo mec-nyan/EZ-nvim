@@ -1,11 +1,19 @@
--- My options.
+-- ╭╌╌╌╌╌╌╌╌╌╌╌╌╌╮
+-- ┆ My options. ┆
+-- ╰╌╌╌╌╌╌╌╌╌╌╌╌╌╯
 
--- Load these before "lazy"
+-- ╭╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╮
+-- ┆ Load these before "lazy" ┆
+-- ╰╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╯
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
--- Using nvim-tree?
+
+-- ╭╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╮
+-- ┆ Using nvim-tree? ┆
+-- ╰╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╯
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
+--
 --
 vim.o.hlsearch = true
 vim.o.modeline = true
@@ -31,7 +39,7 @@ vim.o.termguicolors = true
 vim.o.encoding = 'utf-8'
 vim.o.splitright = true
 vim.o.splitbelow = true
-vim.o.colorcolumn = '90'
+vim.o.colorcolumn = '100'
 vim.o.incsearch = true
 vim.o.scrolloff = 4
 vim.o.expandtab = false
