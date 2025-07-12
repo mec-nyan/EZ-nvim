@@ -41,6 +41,7 @@ local help_me = function(prompt)
 
 	vim.keymap.set("i", "<ESC>", function()
 		vim.api.nvim_win_close(win, true)
+		vim.api.nvim_buf_delete(buf, { force = true })
 	end, { buffer = buf })
 end
 
