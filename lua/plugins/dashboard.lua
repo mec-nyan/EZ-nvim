@@ -12,9 +12,7 @@ return {
 					"",
 					"",
 					"",
-					"",
-					"        N  e  o  V  i  m       ",
-					"",
+					" 󰋑   n   e   o   v   i   m    󰋑 ",
 					"",
 					"",
 					' ⣇⣿⠘⣿⣿⣿⡿⡿⣟⣟⢟⢟⢝⠵⡝⣿⡿⢂⣼⣿⣷⣌⠩⡫⡻⣝⠹⢿⣿⣷ ',
@@ -31,8 +29,6 @@ return {
 					' ⡕⡑⣑⣈⣻⢗⢟⢞⢝⣻⣿⣿⣿⣿⣿⣿⣿⠸⣿⠿⠃⣿⣿⣿⣿⣿⣿⡿⠁⣠ ',
 					' ⡝⡵⡈⢟⢕⢕⢕⢕⣵⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣿⣿⣿⣿⣿⠿⠋⣀⣈⠙ ',
 					' ⡝⡵⡕⡀⠑⠳⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⢉⡠⡲⡫⡪⡪⡣ ',
-					"",
-					"",
 					"",
 					"",
 				},
@@ -86,11 +82,11 @@ return {
 
 					},
 					{
-						icon = "   ",
-						desc = "Quit                 ",
-						key = "q",
+						icon = "󰊢   ",
+						desc = "Git                  ",
+						key = "g",
 						key_format = ' [%s]',
-						action = 'qa!',
+						action = 'Neogit',
 					},
 					{
 						icon = "   ",
@@ -98,6 +94,13 @@ return {
 						key = "?",
 						key_format = ' [%s]',
 						action = 'vert :h',
+					},
+					{
+						icon = "   ",
+						desc = "Quit                 ",
+						key = "q",
+						key_format = ' [%s]',
+						action = 'qa!',
 					},
 					{
 						-- Spacer
