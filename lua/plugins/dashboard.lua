@@ -52,7 +52,7 @@ return {
 					{
 						icon = "   ",
 						desc = "Live grep            ",
-						key = 'g',
+						key = '/',
 						key_format = ' [%s]',
 						action = 'Telescope live_grep',
 
