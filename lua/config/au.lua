@@ -6,3 +6,10 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 		vim.highlight.on_yank()
 	end,
 })
+
+vim.api.nvim_create_autocmd({'BufEnter', 'BufWinEnter'}, {
+	pattern = {'*.py'},
+	callback = function (_)
+		vim.cmd"set colorcolumn=80"
+	end
+})
