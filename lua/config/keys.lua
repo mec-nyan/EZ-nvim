@@ -357,6 +357,26 @@ local keybindings = {
 			cmd = "<cmd>Neogit<CR>",
 			opts = { desc = "Nano::Neogit" },
 		},
+		{
+			key = "]h",
+			cmd = "<cmd>Gitsigns next_hunk<CR>",
+			opts = { desc = "Nano::Git::next hunk" },
+		},
+		{
+			key = "[h",
+			cmd = "<cmd>Gitsigns prev_hunk<CR>",
+			opts = { desc = "Nano::Git::prev hunk" },
+		},
+		{
+			key = "gbl",
+			cmd = "<cmd>Gitsigns blame_line<CR>",
+			opts = { desc = "Nano::Git::blame line" },
+		},
+		{
+			key = "gb",
+			cmd = "<cmd>Gitsigns blame<CR>",
+			opts = { desc = "Nano::Git::blame" },
+		},
 		-- Other
 		{
 			key = "<leader><esc>",
