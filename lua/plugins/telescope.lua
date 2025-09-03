@@ -6,6 +6,7 @@ return {
 	config = function()
 		local tl = require 'telescope'
 		tl.setup {
+			--[[ This is useful with kitty, but not needed anywhere else.
 			defaults = {
 				borderchars = {
 					prompt = { "━", "┃", "━", "┃", "╭", "╮", "╯", "╰" },
@@ -13,6 +14,7 @@ return {
 					preview = { "━", "┃", "━", "┃", "╭", "╮", "╯", "╰" },
 				}
 			},
+			--]]
 			pickers = {
 				find_files = {
 					theme = 'ivy',

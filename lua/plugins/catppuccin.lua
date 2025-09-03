@@ -7,7 +7,7 @@ return {
 			flavour = "mocha",
 			transparent_background = true,
 			float = {
-				transparent = true,
+				transparent = false,
 				solid = true,
 			},
 			show_end_of_buffer = false,

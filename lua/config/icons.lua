@@ -1,5 +1,6 @@
 --- Dignostics configuration.
-local border = { "╭", "━", "╮", "┃", "╯", "━", "╰", "┃" }
+-- Use this to fix rounded border in Kitty.
+-- local border = { "╭", "━", "╮", "┃", "╯", "━", "╰", "┃" }
 
 
 vim.diagnostic.config({
