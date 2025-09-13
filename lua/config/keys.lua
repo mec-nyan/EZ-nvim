@@ -213,7 +213,8 @@ local keybindings = {
 		},
 		{
 			key = "<leader>ff",
-			cmd = format_file,
+			-- cmd = format_file,
+			cmd = "<cmd>lua vim.lsp.buf.format()<CR>",
 			opts = { desc = "Nano::LSP Format" },
 		},
 		{
