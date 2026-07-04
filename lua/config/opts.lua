@@ -51,3 +51,6 @@ vim.o.foldlevel = 3
 vim.o.foldcolumn = '1'
 vim.o.fillchars = 'fold: ,foldopen:+,foldclose:-,foldsep:▏'
 vim.o.laststatus = 3
+
+vim.o.spelllang = 'en_gb'
+vim.o.spell = true

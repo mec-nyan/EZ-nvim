@@ -67,7 +67,8 @@ local keybindings = {
 			opts = { desc = "Nano::Dashboard" },
 		},
 		{
-			key = "<C-z>",
+			-- NOTE: Changed to use the same keybindings I'm using in Helix.
+			key = "<M-w>",
 			cmd = "<cmd>w<CR>",
 			opts = { desc = "Nano::Write" },
 		},
@@ -77,7 +78,8 @@ local keybindings = {
 			opts = { desc = "Nano::NewTab" },
 		},
 		{
-			key = "<ESC>q",
+			-- NOTE: Changed to use the same keybindings I'm using in Helix.
+			key = "<M-q>",
 			cmd = "<cmd>q<CR>",
 			opts = { desc = "Nano::Quit" },
 		},
@@ -91,11 +93,11 @@ local keybindings = {
 			cmd = "<cmd>only<CR>",
 			opts = { desc = "Nano::Only" },
 		},
-		{
-			key = "<ESC>w",
-			cmd = "<cmd>tabclose<CR>",
-			opts = { desc = "Nano::CloseTab" },
-		},
+		-- {
+		-- 	key = "<ESC>w",
+		-- 	cmd = "<cmd>tabclose<CR>",
+		-- 	opts = { desc = "Nano::CloseTab" },
+		-- },
 		-- Navigating windows
 		{
 			key = "<C-J>",
@@ -392,7 +394,8 @@ local keybindings = {
 	},
 	insert = {
 		{
-			key = "<C-z>",
+			-- NOTE: Changed to use the same keybindings I'm using in Helix.
+			key = "<M-w>",
 			cmd = "<ESC>:w<CR>",
 			opts = { desc = "Nano::Write" },
 		},
